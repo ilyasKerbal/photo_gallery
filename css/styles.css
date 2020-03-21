@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: 'Raleway', sans-serif;
     background-color: #e1e1e1;
@@ -75,13 +76,18 @@ input#search:focus {
     justify-content: center;
 }
 
-.item img {
+.item img{
     width: 100%;
+}
+
+.item figure {
+    margin: 0;
 }
 
 .item {
     margin: .5rem 1%;
     width: 80%;
+    display: block;
 }
 
 figcaption {
